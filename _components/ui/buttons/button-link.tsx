@@ -6,7 +6,6 @@ const ButtonLink = ({
   children,
   onClick,
   cssClasses,
-  colorWhite,
   href = "#",
   disabled,
   ariaLabel,
@@ -15,7 +14,7 @@ const ButtonLink = ({
     <Link
       href={href}
       onClick={onClick}
-      className={buttonStyles(colorWhite, cssClasses, disabled)}
+      className={buttonStyles(cssClasses, disabled)}
       aria-label={ariaLabel}
     >
       {children}

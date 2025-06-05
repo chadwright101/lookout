@@ -8,7 +8,7 @@ const InterSansSerif = Inter({
   variable: "--font-inter-sans-serif",
   display: "swap",
   subsets: ["latin"],
-  weight: ["200", "300", "600"],
+  weight: ["200", "300", "500", "600"],
 });
 
 export const metadata: Metadata = {
