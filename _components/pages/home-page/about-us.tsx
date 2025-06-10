@@ -25,7 +25,7 @@ const AboutUs = () => {
           experience full of charm and creativity.
         </p>
         <ButtonLink
-          href="#/stores"
+          href="/#stores"
           ariaLabel="Explore Our Stores"
           cssClasses="tablet:hidden"
         >

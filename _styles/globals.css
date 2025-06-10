@@ -39,6 +39,7 @@
   * {
     color: #202020;
     font-family: 'Noto Sans', Arial, sans-serif;
+    @apply underline-offset-[3px]
   }
 
   h1,

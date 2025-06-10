@@ -3,5 +3,161 @@
     "/images/hero/hero-2.jpeg",
     "/images/hero/hero-3.jpeg",
     "/images/hero/hero-1.jpeg"
+  ],
+  "ourStores": [
+    {
+      "name": "The Designer",
+      "paragraphs": [
+        "The Designer Interiors is a creative interior design studio established in 2008 by Gamalielle Edwards and has relocated to The Lookout Centre in Plettenberg Bay.",
+        "We offer full turnkey interior design services and project management which include floor plan layouts , 3d drawings, soft furnishings, lighting design, within the domestic and commercial sectors.",
+        "Our retail section VINKEL is supportive of South African makers, from furniture makers to artists offering them a platform to display their works. We have our own products that are designed and sourced for Vinkel locally and importing beautiful rugs and fabrics from around the world. "
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "https://www.thedesigner.co.za" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/the-designer.jpeg"
+    },
+    {
+      "name": "The Pie Shop",
+      "paragraphs": [
+        "Next level carefully crafted artisinal hand made pies. Made & baked - fresh - right here in our kitchen. Our secret shortcrust pastry has been a favourite since The Pie Shop was established 25 years ago! Always new & exciting fillings. Beef, chicken, pork, lamb, vegetarian options."
+      ],
+      "contact": [
+        { "phone": "044533490" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": ""
+    },
+    {
+      "name": "The Whale Shop",
+      "paragraphs": [
+        "A treasure trove of coastal charm, The Whale Shop offers nautical souvenirs, elegant beach house decor, and beautiful silver and gold jewelry. It's the perfect stop for unique gifts and seaside inspiration, loved by both tourists and locals."
+      ],
+      "contact": [
+        { "phone": "0812719965" },
+        { "email": "info@thewhaleshop.co.za" },
+        { "website": "" },
+        { "instagram": "the_whale_shop_" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/the-whale-shop.jpeg"
+    },
+    {
+      "name": "Emma Lash Studio",
+      "paragraphs": [
+        "Specializing in the art of Eyelash, Eyebrow & Aesthetics Treatments.",
+        "Our Aesthetic Therapists have been trained by the internationally recognized Lash & Brow Master and Aesthetics Expert, Emma Nichol, who brings over 20 years of experience to the studio.",
+        "Our treatments include Eyelash Extensions, Lash Tinting & Lifting, Brow Tinting & Lamination, Brow Shaping, Permanent Make-up, Bio Sculpture Gel Nails, and Professional Make-up.",
+        "Opening Hours: Monday to Friday 08h30 – 17h00, Saturdays (seasonal)",
+        "Bookings - Over the phone or online via Booksy"
+      ],
+      "contact": [
+        { "phone": "0762136215" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": ""
+    },
+    {
+      "name": "French Kisses",
+      "paragraphs": [
+        "French Kisses is a luxury international boutique situated in the Lookout Centre in the heart of Plettenberg Bay. Offering a curated selection of high-end fashion and accessories we pride ourselves on exceptional quality and personalized service. Experience the ultimate shopping experience with exclusive collections that reflect the latest trends and timeless designs."
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/french-kisses.jpeg"
+    },
+    {
+      "name": "Ice Palazzo",
+      "paragraphs": [
+        "Ice Palazzo in Plettenberg Bay is a beloved, family-owned gelato shop crafting authentic Italian-style ice cream. This cozy spot offers a delightful array of flavours, homemade waffles, and creamy milkshakes. It's a must-visit for dessert lovers seeking a sweet treat in Plett.",
+        "Home to the 20 Scoop Challenge!"
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/ice-palazzo.jpeg"
+    },
+    {
+      "name": "Little Victory Clothing",
+      "paragraphs": [
+        "LVC (Little Victory Clothing) is a well-curated thrift store, established in 2017, offering a treasure trove of vintage gems, high-end labels, and quality second-hand fashion for both men and women. Based in Plettenberg Bay, LVC caters to a broad market — from budget-conscious shoppers to brand lovers — with a focus on premium pieces, timeless style, and conscious fashion. Out-of-town clients can shop via our Instagram page."
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "little.victory.clothing" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/little-victory-clothing.jpeg"
+    },
+    {
+      "name": "Mooigoed Design",
+      "paragraphs": [
+        "Mooigoed Design is a lifestyle boutique situated in Plettenberg Bay – the small business with a huge heart! Shop our beautiful hand-made ranges in store and online."
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "https://www.mooigoeddesign.com" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/moeigoed.jpeg"
+    },
+    {
+      "name": "Pam Golding",
+      "paragraphs": [
+        "Pam Golding Properties Plettenberg Bay",
+        "Monday - Friday 8am–4 pm",
+        "Saturday 9am–2pm",
+        "Sunday Closed"
+      ],
+      "contact": [
+        { "phone": "0445332103" },
+        { "email": "plettenbergbay@pamgolding.co.za" },
+        { "website": "" },
+        { "instagram": "" },
+        {
+          "facebook": "https://www.facebook.com/PamGoldingPropertiesKnysnaPlettenbergBayWebsite link: https://www.pamgolding.co.za/property-search/properties-for-sale-plettenberg-bay/530"
+        }
+      ],
+      "image": ""
+    },
+    {
+      "name": "Two On Toast",
+      "paragraphs": [
+        "We’re thrilled to welcome you to our brand new store, where creativity meets curation. Born from a love of design and a passion for the unusual, our eclectic collection brings together fashion, décor, and gifting with flair and personality.",
+        "From cosy knits and bold coats to statement jewellery and dazzling party wear, Two on Toast has your wardrobe covered for every season and every celebration. Whether you’re heading to a winter dinner party, lounging poolside in summer, or dressing up for a family gathering, you’ll find eye-catching pieces and unforgettable accessories to match the moment.",
+        "Looking for something different? So are we — and that’s exactly what you’ll find on our rails."
+      ],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": ""
+    }
   ]
 }
