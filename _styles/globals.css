@@ -39,7 +39,7 @@
   * {
     color: #202020;
     font-family: 'Noto Sans', Arial, sans-serif;
-    @apply underline-offset-[3px]
+    @apply underline-offset-4
   }
 
   h1,
@@ -75,32 +75,14 @@ spinner {
   margin: 3.5px 0;
 }
 
-.spinner-white::before,
-.spinner-white::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: 3px solid transparent;
-  border-top-color: #FCFCFC;
-  animation: spin 1s linear infinite;
-}
-
-.spinner-white::after {
-  animation-delay: 0.5s;
-}
-
-.spinner-green {
+.spinner {
   width: 20px;
   height: 20px;
   position: relative;
 }
 
-.spinner-green::before,
-.spinner-green::after {
+.spinner::before,
+.spinner::after {
   content: "";
   width: 100%;
   height: 100%;
@@ -113,7 +95,7 @@ spinner {
   animation: spin 1s linear infinite;
 }
 
-.spinner-green::after {
+.spinner::after {
   animation-delay: 0.5s;
 }
 

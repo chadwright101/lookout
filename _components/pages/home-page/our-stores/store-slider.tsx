@@ -155,14 +155,14 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
 
       {/*  desktop navigation */}
       <button
-        className="swiper-button-prev-custom hidden desktop:flex absolute left-2 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg"
+        className="swiper-button-prev-custom hidden desktop:flex absolute left-2 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg desktop:hover:cursor-pointer"
         aria-label="Previous slide"
       >
         <ChevronLeft className="w-6 h-6 text-green hover:text-white transition-colors duration-300" />
       </button>
 
       <button
-        className="swiper-button-next-custom hidden desktop:flex absolute right-2 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg"
+        className="swiper-button-next-custom hidden desktop:flex absolute right-2 top-1/2 -translate-y-1/2 z-20 w-12 h-12 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg desktop:hover:cursor-pointer"
         aria-label="Next slide"
       >
         <ChevronRight className="w-6 h-6 text-green hover:text-white transition-colors duration-300" />

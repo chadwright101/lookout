@@ -1,4 +1,5 @@
 import AboutUs from "@/_components/pages/home-page/about-us";
+import ContactComponent from "@/_components/pages/home-page/contact/contact-component";
 import GalleryComponent from "@/_components/pages/home-page/gallery/gallery-component";
 import HeroComponent from "@/_components/pages/home-page/hero/hero-component";
 import OurStoresComponent from "@/_components/pages/home-page/our-stores/our-stores-component";
@@ -14,6 +15,8 @@ export default function Home() {
         <OurStoresComponent />
         <div id="gallery" className="-translate-y-28" />
         <GalleryComponent />
+        <div id="contact" className="-translate-y-28" />
+        <ContactComponent />
       </div>
     </div>
   );

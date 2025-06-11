@@ -164,5 +164,8 @@
     "/images/gallery/image0.jpeg",
     "/images/gallery/image2.jpeg",
     "/images/gallery/image3.jpeg"
-  ]
+  ],
+  "contactDetails": {
+    "email": "info@lookoutcentre.co.za"
+  }
 }

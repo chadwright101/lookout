@@ -64,14 +64,14 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
         </Swiper>
       </div>
       <button
-        className="swiper-gallery-button-prev-custom hidden desktop:flex absolute left-[35%] -bottom-5 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg"
+        className="swiper-gallery-button-prev-custom hidden desktop:flex absolute left-[35%] -bottom-5 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg desktop:hover:cursor-pointer"
         aria-label="Previous slide"
       >
         <ChevronLeft className="w-5 h-5 text-green hover:text-white transition-colors duration-300" />
       </button>
 
       <button
-        className="swiper-gallery-button-next-custom hidden desktop:flex absolute right-[35%] -bottom-5 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg"
+        className="swiper-gallery-button-next-custom hidden desktop:flex absolute right-[35%] -bottom-5 -translate-y-1/2 z-20 w-8 h-8 bg-white/90 hover:bg-green/90 border-2 border-green rounded-full items-center justify-center transition-all duration-300 ease-in-out hover:scale-110 shadow-lg desktop:hover:cursor-pointer"
         aria-label="Next slide"
       >
         <ChevronRight className="w-5 h-5 text-green hover:text-white transition-colors duration-300" />
