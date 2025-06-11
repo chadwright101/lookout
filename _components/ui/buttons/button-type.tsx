@@ -6,7 +6,6 @@ const ButtonType = ({
   children,
   onClick,
   cssClasses,
-  colorWhite,
   type = "submit",
   disabled = false,
 }: ButtonProps) => {
@@ -16,7 +15,7 @@ const ButtonType = ({
     <button
       type={type}
       onClick={onClick}
-      className={buttonStyles(colorWhite, cssClasses, disabled, pending)}
+      className={buttonStyles(cssClasses, disabled, pending)}
       disabled={disabled || pending}
     >
       {pending && type === "submit" ? (
