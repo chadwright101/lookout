@@ -24,7 +24,7 @@ const MapComponent = ({ cssClasses }: Props) => {
     if (window.google?.maps?.marker?.AdvancedMarkerElement) {
       markerRef.current = new google.maps.marker.AdvancedMarkerElement({
         map: map,
-        position: { lat: -33.9836191, lng: 23.4394283 },
+        position: { lat: -34.053594644038654, lng: 23.372202513493445 },
         title: "The Lookout Centre",
       });
     }
