@@ -68,16 +68,9 @@
   }
 }
 
-spinner {
-  width: 22.75px;
-  height: 22.75px;
-  position: relative;
-  margin: 3.5px 0;
-}
-
 .spinner {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   position: relative;
 }
 
