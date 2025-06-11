@@ -44,7 +44,7 @@
 
   h1,
   h2 {
-    @apply text-heading;
+    @apply text-heading uppercase;
   }
 
   h3,

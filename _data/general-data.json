@@ -33,7 +33,7 @@
         { "instagram": "" },
         { "facebook": "" }
       ],
-      "image": ""
+      "image": "/images/tenants/the-pie-shop.jpeg"
     },
     {
       "name": "The Whale Shop",
@@ -65,7 +65,7 @@
         { "instagram": "" },
         { "facebook": "" }
       ],
-      "image": ""
+      "image": "/images/tenants/emma-aesthetics.jpeg"
     },
     {
       "name": "French Kisses",
@@ -138,10 +138,10 @@
         { "website": "" },
         { "instagram": "" },
         {
-          "facebook": "https://www.facebook.com/PamGoldingPropertiesKnysnaPlettenbergBayWebsite link: https://www.pamgolding.co.za/property-search/properties-for-sale-plettenberg-bay/530"
+          "facebook": "https://www.facebook.com/PamGoldingPropertiesKnysnaPlettenbergBayWebsitelink:https://www.pamgolding.co.za/property-search/properties-for-sale-plettenberg-bay/530"
         }
       ],
-      "image": ""
+      "image": "/images/tenants/pam-golding.jpeg"
     },
     {
       "name": "Two On Toast",
@@ -159,5 +159,10 @@
       ],
       "image": ""
     }
+  ],
+  "gallerySlider": [
+    "/images/gallery/image0.jpeg",
+    "/images/gallery/image2.jpeg",
+    "/images/gallery/image3.jpeg"
   ]
 }

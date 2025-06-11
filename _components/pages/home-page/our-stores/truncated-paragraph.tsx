@@ -5,6 +5,7 @@ import { useState, useRef, useEffect } from "react";
 
 interface TruncatedParagraphProps {
   paragraphs: string[];
+  storeName?: string;
   lines?: number;
   showPopUp?: boolean;
   setShowPopUp?: (show: boolean) => void;
@@ -14,6 +15,7 @@ export const TruncatedParagraph = ({
   paragraphs,
   lines: initialLines = 4,
   showPopUp = false,
+  storeName,
   setShowPopUp = () => {},
 }: TruncatedParagraphProps) => {
   const [maxChars, setMaxChars] = useState(150);
@@ -73,6 +75,7 @@ export const TruncatedParagraph = ({
               <X color="#0F172A" />
             </button>
             <div className="space-y-4 pr-4 overflow-y-scroll max-h-[320px] tablet:max-h-[280px] desktop:max-h-[335px]">
+              <h4>{storeName}</h4>
               {paragraphs.map((paragraph, index) => (
                 <p key={index}>{paragraph}</p>
               ))}

@@ -38,7 +38,6 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
     }
   }, [activePopUpIndex]);
 
-  // Function to handle disabled slide clicks
   const handleDisabledSlideClick = (clickedIndex: number) => {
     if (!swiperRef.current || visibleSlides.length < 4) return;
 
@@ -46,10 +45,8 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
     const currentLastIndex = visibleSlides[3];
 
     if (clickedIndex === currentFirstIndex) {
-      // Clicked on position 1 (first slide) - move it to position 2
       swiperRef.current.slidePrev();
     } else if (clickedIndex === currentLastIndex) {
-      // Clicked on position 4 (last slide) - move it to position 3
       swiperRef.current.slideNext();
     }
   };
@@ -134,7 +131,7 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
         }}
       >
         {filteredData.map((store, index) => (
-          <SwiperSlide key={index} className="pb-7">
+          <SwiperSlide key={index} className="pb-7 desktop:pb-10">
             <SingleStoreComponent
               store={store}
               isOutsideSlide={
