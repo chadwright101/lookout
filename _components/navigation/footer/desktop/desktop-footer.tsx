@@ -46,13 +46,13 @@ export function DesktopFooter() {
           className="font-light pt-5 text-[14px]"
           style={{ fontVariant: "normal" }}
         >
-          © Swift Tool Hire |
+          © {new Date().getFullYear()} The Lookout Centre |
           <Link
             href="/"
             className="text-[14px] font-light"
             style={{ fontVariant: "normal" }}
           >
-            www.swifttoolhire.co.za
+            www.lookoutcentre.co.za
           </Link>
         </h4>
       </div>

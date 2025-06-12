@@ -22,6 +22,7 @@ const GallerySlider = ({ cssClasses, data }: Props) => {
           autoplay={{
             delay: 6000,
             disableOnInteraction: false,
+            reverseDirection: true,
           }}
           spaceBetween={20}
           speed={1000}

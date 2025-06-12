@@ -26,7 +26,7 @@ export function MobileFooter() {
           www.lookoutcentre.co.za
         </Link>
         <h4 className="font-light text-[14px]">
-          © The Lookout Centre {new Date().getFullYear()}
+          © {new Date().getFullYear()} The Lookout Centre
         </h4>
       </div>
     </div>
