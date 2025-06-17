@@ -8,7 +8,7 @@ import { TruncatedParagraph } from "./truncated-paragraph";
 export interface StoreProps {
   store: {
     name: string;
-    paragraphs: string[];
+    paragraphs?: string[];
     contact: {
       phone?: string;
       email?: string;
@@ -50,12 +50,14 @@ const SingleStoreComponent = ({
       onClick={isDisabled ? onDisabledClick : undefined}
     >
       <h4 className="desktop:border-b-4 border-green">{store.name}</h4>
-      <TruncatedParagraph
-        paragraphs={store.paragraphs}
-        setShowPopUp={setShowPopUp}
-        showPopUp={showPopUp}
-        storeName={store.name}
-      />
+      {store.paragraphs && store.paragraphs.length > 0 && (
+        <TruncatedParagraph
+          paragraphs={store.paragraphs}
+          setShowPopUp={setShowPopUp}
+          showPopUp={showPopUp}
+          storeName={store.name}
+        />
+      )}
       <ul className="flex items-center justify-center gap-5 mt-7 min-h-7 desktop:justify-start desktop:min-h-6 desktop:mt-5">
         {store.contact.map((contact, index) => {
           const href = contact.phone

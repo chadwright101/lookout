@@ -157,7 +157,81 @@
         { "instagram": "" },
         { "facebook": "" }
       ],
-      "image": ""
+      "image": "/images/tenants/two-on-toast.jpeg"
+    },
+    {
+      "name": "San Francisco Coffee",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/san-francisco-coffee.jpeg"
+    },
+    {
+      "name": "The Surf Shop",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/the-surf-shop.jpeg"
+    },
+    {
+      "name": "Salt",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/salt.jpeg"
+    },
+    {
+      "name": "Gallop Hill Gallery",
+      "paragraphs": [
+        "Gallop Hill Gallery is a premier art destination in Plettenberg Bay, showcasing high-end investment art from a curated selection of exceptionally talented South African artists. With sister galleries in Hermanus and Franschhoek, Gallop Hill offers collectors and art lovers access to some of the country's most compelling contemporary works in elegantly curated spaces."
+      ],
+      "contact": [
+        { "phone": "076 169 4547" },
+        { "email": "dijonne@gallophill.co.za" },
+        { "website": "" },
+        { "instagram": "gallophillgallery" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/gallop-hill-gallery.png"
+    },
+    {
+      "name": "Inside Living",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/inside-living.png"
+    },
+    {
+      "name": "Jiwu",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/jiwu.webp"
     }
   ],
   "gallerySlider": [

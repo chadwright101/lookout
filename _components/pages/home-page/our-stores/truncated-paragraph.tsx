@@ -4,7 +4,7 @@ import { X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 
 interface TruncatedParagraphProps {
-  paragraphs: string[];
+  paragraphs?: string[];
   storeName?: string;
   lines?: number;
   showPopUp?: boolean;
@@ -50,6 +50,10 @@ export const TruncatedParagraph = ({
     observer.observe(containerRef.current);
     return () => observer.disconnect();
   }, [lines]);
+
+  if (!paragraphs || paragraphs.length === 0) {
+    return null;
+  }
 
   const fullText = paragraphs.join(" ");
 

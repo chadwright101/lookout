@@ -24,9 +24,17 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
   const popupTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const swiperRef = useRef<SwiperType | null>(null);
 
-  const filteredData = data.filter(
-    (store) => store.image && store.image.trim() !== ""
-  );
+  const filteredData = data
+    .filter((store) => store.image && store.image.trim() !== "")
+    .sort((a, b) => {
+      const aHasParagraphs = a.paragraphs && a.paragraphs.length > 0;
+      const bHasParagraphs = b.paragraphs && b.paragraphs.length > 0;
+
+      if (aHasParagraphs && !bHasParagraphs) return -1;
+      if (!aHasParagraphs && bHasParagraphs) return 1;
+
+      return a.name.localeCompare(b.name);
+    });
 
   useEffect(() => {
     if (swiperRef.current) {
@@ -73,6 +81,7 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
           nextEl: ".swiper-button-next-custom",
         }}
         loop
+        initialSlide={filteredData.length - 1}
         style={
           {
             "--swiper-pagination-color": "#719A94",
