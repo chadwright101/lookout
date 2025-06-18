@@ -222,7 +222,7 @@
       "image": "/images/tenants/inside-living.png"
     },
     {
-      "name": "Jiwu",
+      "name": "Jiwu Express",
       "paragraphs": [],
       "contact": [
         { "phone": "" },
@@ -232,6 +232,18 @@
         { "facebook": "" }
       ],
       "image": "/images/tenants/jiwu.webp"
+    },
+    {
+      "name": "The Book Nook",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/book-nook.jpeg"
     }
   ],
   "gallerySlider": [
