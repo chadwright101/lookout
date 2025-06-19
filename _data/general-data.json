@@ -161,7 +161,12 @@
     },
     {
       "name": "San Francisco Coffee",
-      "paragraphs": [],
+      "paragraphs": [
+        "Air roaster of the finest Arabica coffee sourced form all over the world.",
+        "Coffee supplier to the Hospitality industry and Retail stores.",
+        "Direct Sales to the public.",
+        "Distribution and sale of commercial and household coffee equipment and accessories"
+      ],
       "contact": [
         { "phone": "" },
         { "email": "" },
@@ -225,25 +230,55 @@
       "name": "Jiwu Express",
       "paragraphs": [],
       "contact": [
-        { "phone": "" },
+        { "phone": "044 533 0133" },
         { "email": "" },
         { "website": "" },
         { "instagram": "" },
-        { "facebook": "" }
+        {
+          "facebook": "https://www.facebook.com/people/Jiwu-Express/61558930181162/"
+        }
       ],
       "image": "/images/tenants/jiwu.webp"
     },
     {
       "name": "The Book Nook",
-      "paragraphs": [],
+      "paragraphs": [
+        "The Book Nook is a beloved independent bookstore that’s been a community favorite for over 25 years. It offers a carefully curated mix of new, rare, and second-hand books spanning diverse genres—from literary fiction to children’s tales—as well as DVDs, making it a treasure trove for casual browsers and bibliophiles alike."
+      ],
       "contact": [
-        { "phone": "" },
-        { "email": "" },
+        { "phone": "044 533 3230" },
+        { "email": "fayel@telkomsa.net" },
         { "website": "" },
         { "instagram": "" },
         { "facebook": "" }
       ],
       "image": "/images/tenants/book-nook.jpeg"
+    },
+    {
+      "name": "Le Fournil",
+      "paragraphs": [],
+      "contact": [
+        { "phone": "044 533 1390" },
+        { "email": "" },
+        { "website": "https://lefournildeplett.co.za" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/le-fournil.jpeg"
+    },
+    {
+      "name": "Blue Bay Guards",
+      "paragraphs": [
+        "Blue Bay Guards is a dependable, locally rooted security partner with experienced staff, a visible security fleet and a strong community focus, making them a trusted choice for reliable protection and security related services in Plettenberg Bay"
+      ],
+      "contact": [
+        { "phone": "044 533 1691" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/blue-bay-guards.jpeg"
     }
   ],
   "gallerySlider": [

@@ -8,6 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
 
 import SingleStoreComponent, { StoreProps } from "./single-store-component";
+import { StorePopup } from "./truncated-paragraph";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -21,7 +22,6 @@ interface Props {
 const StoreSlider = ({ cssClasses, data }: Props) => {
   const [visibleSlides, setVisibleSlides] = useState<number[]>([]);
   const [activePopUpIndex, setActivePopUpIndex] = useState<number | null>(null);
-  const popupTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const swiperRef = useRef<SwiperType | null>(null);
 
   const filteredData = data
@@ -115,28 +115,6 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
           ].map((i) => i % filteredData.length);
 
           setVisibleSlides(newVisibleSlides);
-
-          if (
-            activePopUpIndex !== null &&
-            !newVisibleSlides.includes(activePopUpIndex)
-          ) {
-            if (popupTimeoutRef.current) {
-              clearTimeout(popupTimeoutRef.current);
-            }
-
-            popupTimeoutRef.current = setTimeout(() => {
-              setActivePopUpIndex(null);
-              popupTimeoutRef.current = null;
-            }, 1000);
-          } else if (
-            activePopUpIndex !== null &&
-            newVisibleSlides.includes(activePopUpIndex)
-          ) {
-            if (popupTimeoutRef.current) {
-              clearTimeout(popupTimeoutRef.current);
-              popupTimeoutRef.current = null;
-            }
-          }
         }}
       >
         {filteredData.map((store, index) => (
@@ -176,6 +154,24 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
       >
         <ChevronRight className="w-6 h-6 text-green hover:text-white transition-colors duration-300" />
       </button>
+
+      {/* Render popup at slider level for mobile only */}
+      <StorePopup
+        showPopUp={activePopUpIndex !== null}
+        setShowPopUp={(show: boolean) =>
+          setActivePopUpIndex(show ? activePopUpIndex : null)
+        }
+        storeName={
+          activePopUpIndex !== null
+            ? filteredData[activePopUpIndex]?.name
+            : undefined
+        }
+        paragraphs={
+          activePopUpIndex !== null
+            ? filteredData[activePopUpIndex]?.paragraphs
+            : undefined
+        }
+      />
     </div>
   );
 };

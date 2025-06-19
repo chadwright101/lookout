@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
-import Image from "next/image";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Props {
   cssClasses?: string;
