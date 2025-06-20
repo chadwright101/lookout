@@ -189,14 +189,18 @@
       "image": "/images/tenants/the-surf-shop.jpeg"
     },
     {
-      "name": "Salt",
-      "paragraphs": [],
+      "name": "Salt Clothing",
+      "paragraphs": [
+        "Salt Clothing is a family‑run boutique offering  intentionally simple, slow‑lifestyle leisurewear crafted from natural fabrics like cotton, linen and bamboo—think breathable shirts, knitwear, shorts and dresses, all dyed with eco‑friendly inks and produced locally. More than just clothes, Salt’s ethos celebrates family, community and connection to nature—designs made for barrel‑to‑bar life and dancing under the sun ."
+      ],
       "contact": [
-        { "phone": "" },
-        { "email": "" },
+        { "phone": "0742610264" },
+        { "email": "info@saltplettenbergbay.co.za" },
         { "website": "" },
-        { "instagram": "" },
-        { "facebook": "" }
+        { "instagram": "salt.plettenbergbay" },
+        {
+          "facebook": "https://www.facebook.com/profile.php?id=100090024756530"
+        }
       ],
       "image": "/images/tenants/salt.jpeg"
     },
@@ -215,11 +219,13 @@
       "image": "/images/tenants/gallop-hill-gallery.png"
     },
     {
-      "name": "Inside Living",
-      "paragraphs": [],
+      "name": "LEICHT SA",
+      "paragraphs": [
+        "LEICHT SA offers smart luxury in kitchens - modern, innovative, and design- conscious. Our German engineered Kitchens are known for precision, timeless aesthetics, and seamless integration into contemporary living spaces. We work closely with homeowners, architect's, and designers to create bespoke kitchen solutions that reflect both elegance and functionality."
+      ],
       "contact": [
-        { "phone": "" },
-        { "email": "" },
+        { "phone": "082 325 2569" },
+        { "email": "james@leicht.co.za" },
         { "website": "" },
         { "instagram": "" },
         { "facebook": "" }
@@ -228,14 +234,16 @@
     },
     {
       "name": "Jiwu Express",
-      "paragraphs": [],
+      "paragraphs": [
+        "A quaint and cosy Beauty Salon, situated the gorgeous Courtyard of the Lookout Centre. This walk-in express spa offers high-quality treatments including nails, lashes, facial, waxing and tinting"
+      ],
       "contact": [
         { "phone": "044 533 0133" },
         { "email": "" },
         { "website": "" },
         { "instagram": "" },
         {
-          "facebook": "https://www.facebook.com/people/Jiwu-Express/61558930181162/"
+          "facebook": "https://www.facebook.com/jiwuexpress/"
         }
       ],
       "image": "/images/tenants/jiwu.webp"
@@ -255,14 +263,17 @@
       "image": "/images/tenants/book-nook.jpeg"
     },
     {
-      "name": "Le Fournil",
-      "paragraphs": [],
+      "name": "Le Fournil de Plett",
+      "paragraphs": [
+        "Le Fournil de Plett is a charming French‑style bakery & café tucked into the Lookout Centre courtyard offering  freshly baked artisan breads, sourdough, rye and French pastries (croissants, tarts, the renowned almond croissant) using organic stone‑ground flour, farm butter, free‑range eggs and locally sourced ingredients. Their menu includes gourmet sandwiches, homemade soups, cakes and premium artisan coffee from Truth Coffee.",
+        "Open from early breakfasts—croissants and cappuccino at 07:30, full breakfast and lunch from 08:00 daily (until mid‑afternoon and slightly shorter hours on Sundays)—it’s ideal for a laid‑back morning or a long lunch in Plettenberg Bay’s seaside vibe."
+      ],
       "contact": [
         { "phone": "044 533 1390" },
-        { "email": "" },
+        { "email": "lefournil@mweb.co.za " },
         { "website": "https://lefournildeplett.co.za" },
-        { "instagram": "" },
-        { "facebook": "" }
+        { "instagram": "lefournildeplett" },
+        { "facebook": "https://www.facebook.com/lefournildeplett" }
       ],
       "image": "/images/tenants/le-fournil.jpeg"
     },
@@ -279,6 +290,20 @@
         { "facebook": "" }
       ],
       "image": "/images/tenants/blue-bay-guards.jpeg"
+    },
+    {
+      "name": "Crush Surf",
+      "paragraphs": [
+        "Crush Surf is a vibrant surf, swim & lifestyle store. Perfect for picking up everything from surf gear and beachwear to curated casual fashion and accessories, Crush Surf is the go-to destination in Plett for those chasing waves or city style by the sea."
+      ],
+      "contact": [
+        { "phone": "044 533 3253" },
+        { "email": "thesurfshop@telkomsa.net" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/surf-crush.jpg"
     }
   ],
   "gallerySlider": [

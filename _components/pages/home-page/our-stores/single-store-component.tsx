@@ -61,7 +61,7 @@ const SingleStoreComponent = ({
       <ul className="flex items-center justify-center gap-5 mt-7 min-h-7 desktop:justify-start desktop:min-h-6 desktop:mt-5">
         {store.contact.map((contact, index) => {
           const href = contact.phone
-            ? `tel:${contact.phone}`
+            ? `tel:+27${contact.phone}`
             : contact.email
             ? `mailto:${contact.email}`
             : contact.website
