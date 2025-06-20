@@ -82,17 +82,28 @@ export const StorePopup = ({
   paragraphs?: string[];
 }) => {
   useEffect(() => {
-    if (showPopUp) {
-      // Prevent body scroll when popup is open
-      document.body.style.overflow = "hidden";
-    } else {
-      // Restore body scroll when popup is closed
-      document.body.style.overflow = "unset";
-    }
+    // Only prevent scroll on mobile devices (below 1280px)
+    const handleScrollPrevention = () => {
+      if (window.innerWidth < 1280) {
+        if (showPopUp) {
+          // Prevent body scroll when popup is open on mobile
+          document.body.style.overflow = "hidden";
+        } else {
+          // Restore body scroll when popup is closed on mobile
+          document.body.style.overflow = "unset";
+        }
+      }
+    };
+
+    handleScrollPrevention();
+
+    // Listen for resize events to handle screen size changes
+    window.addEventListener("resize", handleScrollPrevention);
 
     // Cleanup function to restore scroll when component unmounts
     return () => {
       document.body.style.overflow = "unset";
+      window.removeEventListener("resize", handleScrollPrevention);
     };
   }, [showPopUp]);
 
