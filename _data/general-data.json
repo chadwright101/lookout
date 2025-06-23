@@ -178,7 +178,9 @@
     },
     {
       "name": "The Surf Shop",
-      "paragraphs": [],
+      "paragraphs": [
+        "The Surf Shop is a vibrant surf, swim & lifestyle store. Perfect for picking up everything from surf gear and beachwear to curated casual fashion and accessories, The Surf Shop is the go-to destination in Plett for those chasing waves or city style by the sea."
+      ],
       "contact": [
         { "phone": "" },
         { "email": "" },
@@ -290,20 +292,6 @@
         { "facebook": "" }
       ],
       "image": "/images/tenants/blue-bay-guards.jpeg"
-    },
-    {
-      "name": "Crush Surf",
-      "paragraphs": [
-        "Crush Surf is a vibrant surf, swim & lifestyle store. Perfect for picking up everything from surf gear and beachwear to curated casual fashion and accessories, Crush Surf is the go-to destination in Plett for those chasing waves or city style by the sea."
-      ],
-      "contact": [
-        { "phone": "044 533 3253" },
-        { "email": "thesurfshop@telkomsa.net" },
-        { "website": "" },
-        { "instagram": "" },
-        { "facebook": "" }
-      ],
-      "image": "/images/tenants/surf-crush.jpg"
     }
   ],
   "gallerySlider": [
