@@ -22,6 +22,9 @@ interface Props {
 const StoreSlider = ({ cssClasses, data }: Props) => {
   const [visibleSlides, setVisibleSlides] = useState<number[]>([]);
   const [activePopUpIndex, setActivePopUpIndex] = useState<number | null>(null);
+  const [contactInteractionIndex, setContactInteractionIndex] = useState<
+    number | null
+  >(null);
   const swiperRef = useRef<SwiperType | null>(null);
 
   const filteredData = data
@@ -38,13 +41,13 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
 
   useEffect(() => {
     if (swiperRef.current) {
-      if (activePopUpIndex !== null) {
+      if (activePopUpIndex !== null || contactInteractionIndex !== null) {
         swiperRef.current.autoplay.stop();
       } else {
         swiperRef.current.autoplay.start();
       }
     }
-  }, [activePopUpIndex]);
+  }, [activePopUpIndex, contactInteractionIndex]);
 
   const handleDisabledSlideClick = (clickedIndex: number) => {
     if (!swiperRef.current || visibleSlides.length < 4) return;
@@ -135,6 +138,9 @@ const StoreSlider = ({ cssClasses, data }: Props) => {
               }
               showPopUp={activePopUpIndex === index}
               onDisabledClick={() => handleDisabledSlideClick(index)}
+              onContactInteraction={(isInteracting: boolean) =>
+                setContactInteractionIndex(isInteracting ? index : null)
+              }
             />
           </SwiperSlide>
         ))}
