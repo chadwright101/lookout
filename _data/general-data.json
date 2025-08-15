@@ -251,18 +251,33 @@
       "image": "/images/tenants/jiwu.webp"
     },
     {
-      "name": "The Book Nook",
+      "name": "Nook",
       "paragraphs": [
-        "The Book Nook is a beloved independent bookstore that’s been a community favorite for over 25 years. It offers a carefully curated mix of new, rare, and second-hand books spanning diverse genres—from literary fiction to children’s tales—as well as DVDs, making it a treasure trove for casual browsers and bibliophiles alike."
+        "Nook is a dynamic space centred around the art of storytelling. A reimagining of a Plett community staple, Nook presents a curated selection of books, products from a collective of makers, and a venue for hosting events and workshops."
       ],
       "contact": [
-        { "phone": "044 533 3230" },
-        { "email": "fayel@telkomsa.net" },
+        { "phone": "" },
+        { "email": "" },
         { "website": "" },
         { "instagram": "" },
         { "facebook": "" }
       ],
       "image": "/images/tenants/book-nook.jpeg"
+    },
+    {
+      "name": "Dr Adri du Plessis",
+      "paragraphs": [
+        "Now Welcoming a New Dental Surgeon and Oral Hygienist in Plettenberg Bay",
+        "We are pleased to introduce our new dental professional, offering gentle and expert care in a comfortable setting. High-quality treatment at affordable rates."
+      ],
+      "contact": [
+        { "phone": "044 382 7122" },
+        { "email": "" },
+        { "website": "" },
+        { "instagram": "" },
+        { "facebook": "" }
+      ],
+      "image": "/images/tenants/dr-adri-du-plessis.jpg"
     },
     {
       "name": "Le Fournil de Plett",

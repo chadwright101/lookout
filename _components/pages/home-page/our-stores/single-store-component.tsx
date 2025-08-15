@@ -131,7 +131,7 @@ const SingleStoreComponent = ({
                   href={`mailto:${
                     store.contact.find((contact) => contact.email)?.email
                   }`}
-                  className="text-[14px] text-link-blue hover:text-black ease-in-out duration-300 break-all"
+                  className="text-[12px] text-link-blue hover:text-black ease-in-out duration-300 break-all"
                 >
                   {store.contact.find((contact) => contact.email)?.email}
                 </Link>
